@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bars-chart {
+  height: 200px;
+  border-bottom: 1px solid;
+  border-radius: 12%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: flex-end;
+}
+
+.bars-chart > div {
+  width: 50px;
+  position: relative;
+  background-color: blue;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.planet-name-bar {
+  position: absolute;
+  bottom: -25px;
+}
+
+.planet-amout-bar {
+  position: absolute;
+  top: -25px;
+}
